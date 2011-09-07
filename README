@@ -1,0 +1,28 @@
+格式
+------
+
+- 一个单词一个段落，段落间以空行分隔
+- 段落中，第一行是英文单词，第二行是中文单词，之后的（第三行起）是注释
+- 为方便查询，先都写在一个文件中
+
+例子
+-------
+
+notification
+通告
+常见词汇，翻译出来比较好。苹果中文开发文档使用了“通告”，见:
+http://www.apple.com.cn/developer/iphone/library/documentation/General/Conceptual/DevPedia-CocoaCore/Notification.html
+
+
+tap
+轻按/按下
+苹果iPhone/iPad使用手册。视上下文，使用“轻按”或“按下”
+
+double-tap
+连按
+苹果iPhone/iPad使用手册
+
+Home button
+主屏幕按钮
+苹果iPhone/iPad使用手册
+
