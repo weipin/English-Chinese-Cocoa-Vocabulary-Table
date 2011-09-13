@@ -26,3 +26,207 @@ Home button
 主屏幕按钮
 苹果iPhone/iPad使用手册
 
+
+对照表
+-----------
+
+Application/App
+应用程序
+虽然App不翻译，也有比较大的接受度（比如App Store）。但是考虑到，书中会大量出现App一词，
+并且第一个A的大小写也不固定，所以还是译为中文。
+
+button
+按钮
+
+window
+窗口
+
+screen
+屏幕
+
+label
+标签
+苹果iPhone/iPad使用手册
+
+view
+视图/UIView实例
+视上下文，译为视图/视图对象/UIView实例。
+
+interface builder
+界面构建工具
+Xcode 4之前，Interface Builder（首字母大写）是独立的程序，应和Xcode一样，不翻译。
+Xcode 4中，interface builder是一个组成部分，不再是独立的程序。所以还是翻译为中文。
+
+workspace
+工作空间
+
+toolbar
+工具栏
+
+sheet
+表单
+Apple使用手册，
+The Customize Toolbar sheet appears. / 将出现 “自定工具栏”表单。（Pages09_UserGuide.pdf）
+
+checkbox
+选择框
+
+check
+勾选
+
+navigator area
+导航面板区域
+
+navigator
+导航面板
+
+navigator selector
+导航面板选择条
+
+project navigator
+项目面板
+
+editor area
+编辑器区域
+
+archive
+固化/存档文件
+两种情况：
+第一种是动词，Cocoa框架实现的功能－－翻译为“固化”，与其相对的是unarchive。
+第二种是名词，Xcode的功能－－翻译为“存档文件”
+动词archive没有现成可用的中文翻译，但是需要翻译为中文，整句才通顺。试译为“固化”
+
+unarchive
+解固
+针对动词archive
+
+build
+构建
+不能翻译为“编译”，build比compile的含义更广，何况也要将compile翻译为编译
+Apple官方文档的翻译是“连编”
+http://www.apple.com.cn/developer/mac/library/documentation/DeveloperTools/Conceptual/xcode/xcodeprojects.html
+
+compile
+编译
+
+bundle
+程序包
+中文版iTunesConnect_DeveloperGuide
+Bundle IDs are app-type specific (either iOS or Mac OS X) / 程序包ID是程序类型相关的(要么是iOS,要么是Mac OS X) 
+
+outline view
+大纲视图
+
+canvas
+画布
+
+Dock
+Dock
+不翻译。Apple官网在介绍Mac OS X时，没有翻译Dock
+From the menu to the Dock, Snow Leopard looks great and helps you stay organized.
+从菜单到Dock，Snow Leopard看上去都很美观，有助于您让桌面保持整洁。
+
+event queue
+事件队列
+
+utilities area
+工具区域
+
+inspector
+检视面板
+
+segmented control
+分段控件
+http://www.apple.com.cn/developer/mac/library/navigation/ios.html
+
+Model-View-Controller
+模型-视图-控制对象
+
+collection class
+集合类
+
+object diagram
+对象图
+
+declaration
+声明
+
+method
+方法
+
+function
+函数
+
+connect
+关联
+Apple开发文档
+http://www.apple.com.cn/developer/iphone/library/documentation/iPhone/Conceptual/iPhone101/Articles/05_ConfiguringView.html#/apple_ref/doc/uid/TP40007514-CH7-SW2
+	
+outlet
+插座变量
+虽然别扭，考虑后，还是翻译出来比较好
+http://www.apple.com.cn/developer/mac/library/documentation/Cocoa/Conceptual/OOP_ObjC/Articles/chapter_6_section_2.html
+
+target
+目标
+
+action
+动作
+
+message
+消息
+
+developer certificate
+开发者证书
+
+Keychain Access
+钥匙串访问
+Mac OS X中的中文版就是这个
+
+application identifier
+应用程序ID
+
+Provisioning profile
+暂不翻译
+
+bundle identifier
+程序包ID
+
+wildcard character
+通配符
+
+Device ID
+设备ID
+
+Home screen
+主屏幕
+苹果iPhone/iPad使用手册
+
+Launch Image
+启动图片
+
+tap
+轻按/按下
+苹果iPhone/iPad使用手册。视上下文，使用“轻按”或“按下”
+
+double-tap
+连按
+苹果iPhone/iPad使用手册
+
+console
+控制台
+
+Retina
+Retina
+Apple官网未翻译
+
+
+
+
+
+
+
+
+
+
+
