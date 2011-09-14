@@ -31,7 +31,7 @@ Home button
 -----------
 
 Application/App
-应用程序
+应用
 虽然App不翻译，也有比较大的接受度（比如App Store）。但是考虑到，书中会大量出现App一词，
 并且第一个A的大小写也不固定，所以还是译为中文。
 
@@ -56,6 +56,7 @@ interface builder
 界面构建工具
 Xcode 4之前，Interface Builder（首字母大写）是独立的程序，应和Xcode一样，不翻译。
 Xcode 4中，interface builder是一个组成部分，不再是独立的程序。所以还是翻译为中文。
+Neo: 即使在 Xcode 4 中，习惯上还是把 IB 看作一个独立组件，建议不翻译为好。
 
 workspace
 工作空间
@@ -81,13 +82,13 @@ navigator
 导航面板
 
 navigator selector
-导航面板选择条
+导航面板选择器
 
 project navigator
-项目面板
+项目导航面板
 
 editor area
-编辑器区域
+编辑区域
 
 archive
 固化/存档文件
@@ -95,6 +96,7 @@ archive
 第一种是动词，Cocoa框架实现的功能－－翻译为“固化”，与其相对的是unarchive。
 第二种是名词，Xcode的功能－－翻译为“存档文件”
 动词archive没有现成可用的中文翻译，但是需要翻译为中文，整句才通顺。试译为“固化”
+Neo: 此二词汇确实没有公认的翻译，目前的「固话/解固」还不错，另外建议加一个译者注说明。
 
 unarchive
 解固
@@ -105,6 +107,7 @@ build
 不能翻译为“编译”，build比compile的含义更广，何况也要将compile翻译为编译
 Apple官方文档的翻译是“连编”
 http://www.apple.com.cn/developer/mac/library/documentation/DeveloperTools/Conceptual/xcode/xcodeprojects.html
+Neo: 建议用「创建」或者「连编」
 
 compile
 编译
@@ -138,9 +141,10 @@ inspector
 segmented control
 分段控件
 http://www.apple.com.cn/developer/mac/library/navigation/ios.html
+Neo: 这类 UI 控件可以考虑不翻译，要翻译可以用此方案
 
 Model-View-Controller
-模型-视图-控制对象
+模型-视图-控制器
 
 collection class
 集合类
@@ -184,19 +188,20 @@ Keychain Access
 Mac OS X中的中文版就是这个
 
 application identifier
-应用程序ID
+应用程序标识
 
 Provisioning profile
 暂不翻译
+Neo: 可以考虑翻译为「分发准备配置」，不译也好
 
 bundle identifier
-程序包ID
+程序包标识
 
 wildcard character
 通配符
 
 Device ID
-设备ID
+设备标识
 
 Home screen
 主屏幕
@@ -219,6 +224,7 @@ console
 Retina
 Retina
 Apple官网未翻译
+Neo: 建议提供译者注，说明 Retina Display 的准确含义
 
 
 
