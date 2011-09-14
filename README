@@ -53,9 +53,9 @@ view
 视上下文，译为视图/视图对象/UIView实例。
 
 interface builder
-界面构建工具
+Interface Builder
 Xcode 4之前，Interface Builder（首字母大写）是独立的程序，应和Xcode一样，不翻译。
-Xcode 4中，interface builder是一个组成部分，不再是独立的程序。所以还是翻译为中文。
+Xcode 4中，interface builder是一个组成部分，不再是独立的程序。暂时还是不翻译
 Neo: 即使在 Xcode 4 中，习惯上还是把 IB 看作一个独立组件，建议不翻译为好。
 
 workspace
@@ -103,7 +103,7 @@ unarchive
 针对动词archive
 
 build
-构建
+创建
 不能翻译为“编译”，build比compile的含义更广，何况也要将compile翻译为编译
 Apple官方文档的翻译是“连编”
 http://www.apple.com.cn/developer/mac/library/documentation/DeveloperTools/Conceptual/xcode/xcodeprojects.html
