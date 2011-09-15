@@ -147,7 +147,10 @@ http://www.apple.com.cn/developer/mac/library/navigation/ios.html
 Neo: 这类 UI 控件可以考虑不翻译，要翻译可以用此方案
 
 Model-View-Controller
-模型-视图-控制器
+模型-视图-控制对象
+也有译为“模型-视图-控制器”（译文中说明）。“器”在别处有使用，比如“导航面板选择器”。
+作为设计模式中的概念，“对象”更具体。另一个原因是，单独的controller会译为“控制对象”，或
+“UIViewController对象”等。所以统一译为“控制对象”。
 
 collection class
 集合类
