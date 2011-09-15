@@ -103,11 +103,14 @@ unarchive
 针对动词archive
 
 build
-创建
+构建
 不能翻译为“编译”，build比compile的含义更广，何况也要将compile翻译为编译
 Apple官方文档的翻译是“连编”
 http://www.apple.com.cn/developer/mac/library/documentation/DeveloperTools/Conceptual/xcode/xcodeprojects.html
 Neo: 建议用「创建」或者「连编」
+Xia: 因为“创建”是常见词，容易和其他使用情况混淆。
+     比如“创建新项目”（create a new project），“创建视图实例”（create a view instance）等。
+     故暂翻译为“构建”
 
 compile
 编译
@@ -225,6 +228,7 @@ Retina
 Retina
 Apple官网未翻译
 Neo: 建议提供译者注，说明 Retina Display 的准确含义
+Xia: 
 
 controller
 控制对象
