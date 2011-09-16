@@ -236,6 +236,124 @@ Xia: Retina显示屏，高分辨率显示屏
 controller
 控制对象
 
+command line tool
+命令行工具
+
+object
+对象
+
+instance
+实例
+
+class
+类
+
+structure
+结构
+
+instance variable
+实例变量
+
+parameter
+参数
+
+arguments
+参数
+
+receiver
+接收方
+
+selector
+选择器
+
+log navigator
+日志面板
+
+collection object
+集合对象
+
+container
+容器
+
+framework
+框架
+
+immutable
+不可变的
+
+mutable
+可变的
+
+primitives
+基本类型
+
+hierarchy
+层次结构
+view hierarchy, class hierarchy等
+
+superclass
+父类
+
+subclass
+子类化
+
+override
+覆写
+一般译为重载和覆写，目前似乎会将overload翻译为重载的比较多：函数重载，操作符重载。
+这里就先将override译为覆写。
+
+header file
+头文件
+
+implementation file
+实现文件
+
+inherit
+继承
+
+reference
+引用
+
+accessor
+存取方法
+
+block
+程序块
+两个意思：一个是单纯的code block，译为程序块；另一个是iOS/Mac OS的特性Block，不翻译。
+
+initializer
+初始化方法
+
+designated initializer
+指定初始化方法
+
+implicit
+隐式的
+
+compiler directive
+编译器指令
+
+convenience method
+便捷方法
+
+compile-time error
+编译时错误
+
+run-time error
+运行时错误
+
+respond
+应答
+
+debugger
+调试器
+
+debug area
+调试区域
+
+fast enumeration
+快速枚举
+
 
 
 
