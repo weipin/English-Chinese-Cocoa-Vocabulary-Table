@@ -67,9 +67,11 @@ toolbar
 工具栏
 
 sheet
-表单
+下拉窗口
 Apple使用手册，
 The Customize Toolbar sheet appears. / 将出现 “自定工具栏”表单。（Pages09_UserGuide.pdf）
+“表单”和form有歧义，“下拉窗口”的确更佳
+
 
 checkbox
 选择框
@@ -355,7 +357,6 @@ debug area
 
 fast enumeration
 快速枚举
-
 
 
 
