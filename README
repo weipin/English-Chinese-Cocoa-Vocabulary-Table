@@ -136,6 +136,9 @@ Dock
 From the menu to the Dock, Snow Leopard looks great and helps you stay organized.
 从菜单到Dock，Snow Leopard看上去都很美观，有助于您让桌面保持整洁。
 
+event
+事件
+
 event queue
 事件队列
 
@@ -357,6 +360,71 @@ debug area
 
 fast enumeration
 快速枚举
+
+allocate
+分配
+
+deallocate
+释放
+
+heap
+堆
+
+stack
+栈
+
+release
+release
+考虑是否要翻译该词。如果翻译，不应简单翻译为“释放”：1）要和dealloc的译文有所区分。2）release对象后，对象不一定会被
+“释放”。
+鉴于此，又因为release在代码中即“发送release消息”，所以既然代码就是release，没有必要强行翻译。
+视情况，可以直接将release用作动词，或用以下句式翻译：收到release消息；向对象发送release消息；
+
+retain
+retain
+见release
+
+retain count
+retain计数
+见release
+
+owner
+拥有方
+相较于“拥有者”和“拥有对象”，“拥有方”更中性和准确。“拥有者”过于拟人化，owner也不一定是对象。
+
+ownership
+拥有权
+
+run loop
+运行循环
+
+timer
+定时器
+
+property
+属性
+property有很多，包括
+- 类的属性（即，@property）
+
+synthesize
+合成
+重要的专业词汇，未找到现有的翻译。暂用“合成”
+
+attribute
+特性
+类的属性（即，@property）的attribute。如readwrite, retain等
+
+copy
+拷贝
+拷贝或复制。关系不大，这里统一用拷贝
+
+data segment
+数据段
+
+stack frame
+栈帧
+
+
 
 
 
