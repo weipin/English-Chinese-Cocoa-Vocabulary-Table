@@ -424,10 +424,74 @@ data segment
 stack frame
 栈帧
 
+explicitly
+显示地
 
+implicitly
+隐含地
 
+gutter
+编辑区域左侧的淡灰色长条
 
+delegation
+委托机制
 
+delegate
+委托对象
+
+project
+项目
+
+target
+目标
+
+product
+产品
+
+Build Phases
+构建阶段
+
+framework
+框架
+
+namespace
+名字空间
+
+Scheme
+方案
+
+target-action pairs
+目标-动作对
+
+protocol
+原型
+
+conform to
+遵守
+
+retain cycle
+retain循环
+
+debugger
+调试器
+
+breakpoint
+断点
+
+stack trace
+堆栈跟踪信息
+
+Preprocessing
+预处理
+
+intermediate file
+中间文件
+
+preprocessor
+预处理器
+
+object file
+目标文件
 
 
 
