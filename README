@@ -493,6 +493,30 @@ preprocessor
 object file
 目标文件
 
+annotation
+位置标识
+
+Done
+完成
+iOS软键盘的Done，取自iOS中文资源
+
+code completion
+代码补全
+Xcode功能
+
+responder/UIResponder
+响应对象
+
+first responder
+第一响应对象
+
+activity indicator
+活动指示器
+
+
+
+
+
 
 
 
