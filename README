@@ -392,6 +392,10 @@ owner
 拥有方
 相较于“拥有者”和“拥有对象”，“拥有方”更中性和准确。“拥有者”过于拟人化，owner也不一定是对象。
 
+file's owner
+文件拥有对象
+
+
 ownership
 拥有权
 
@@ -537,6 +541,26 @@ offscreen drawing
 
 key-value pair
 键-值对
+
+field
+输入框
+
+view controller
+视图控制对象
+
+tab bar
+标签条
+
+File's Owner
+文件拥有对象
+
+placeholder object
+占位对象
+
+low memory warnings
+内存过低警告
+
+
 
 
 
