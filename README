@@ -562,6 +562,10 @@ low memory warnings
 
 accelerometer
 方向感应器
+官方翻译：http://www.apple.com.cn/ipodtouch/design/
+Gyro + 方向感应器，动作更流畅。iPod touch 做了新的改进。现配备内置三轴陀螺仪。
+当与方向感应器搭配使用时，陀螺仪让 iPod touch 支持更高级别的动作感应
+
 
 low-pass filter/high-pass filter
 低通滤波/高通滤波（或，低通滤波算法/高通滤波算法）
