@@ -581,6 +581,59 @@ point
 Cocoa绘图中使用的逻辑单位
 
 
+notification
+通告
+http://www.apple.com.cn/developer/iphone/library/documentation/General/Conceptual/DevPedia-CocoaCore/Notification.html
+
+
+post notification
+发布通告
+
+notification center
+通告中心
+
+autorotation
+转动自适应
+大量出现的单词，应翻译。但又没有现成可用的参考，暂译。
+
+autoresize
+大小自适应
+同autorotation
+
+autoresize mask
+大小自适应掩码
+
+observer
+观察对象
+notification机制中的概念
+
+rotate
+转动
+指转动设备
+
+portrait / portrait mode
+竖排/竖排模式
+官方使用手册：以竖排或横排模式观看视频。
+
+landscape / landscape mode
+横排/横排模式
+同portrait
+
+margin
+外间距
+“大小自适应”中的概念。即，子视图边框和父视图边框之间的距离。
+“外间距”是CSS中的“框模型”（box model）的相对常见翻译。这里虽然不是
+完全相同的概念。
+
+universal application
+通用应用
+
+bitwise operation
+按位运算符
+
+proximity notification
+设备近身通告
+
 
 
 
