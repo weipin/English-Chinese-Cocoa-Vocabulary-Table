@@ -560,6 +560,25 @@ placeholder object
 low memory warnings
 内存过低警告
 
+accelerometer
+方向感应器
+
+low-pass filter/high-pass filter
+低通滤波/高通滤波（或，低通滤波算法/高通滤波算法）
+er,or等英文名词后缀，现常见的译文是“器”。这里尝试做一点具体的变通。
+例如，视情况将er/or翻译为：面板，对象和算法等。很个人的原因，看到“导航器”（navigator）会
+联想到科幻电影，看到“低通滤波器”（low-pass filter）会想到吉他音箱。所以，只要编辑能点头，甘愿冒被
+骂胡乱翻译的险，具体化对“器”的翻译。例如：
+controller：控制器 => 控制对象
+navigator:导航器 => 导航面板
+
+point
+点
+Cocoa绘图中使用的逻辑单位
+
+
+
+
 
 
 
