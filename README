@@ -651,7 +651,17 @@ accessory indicator
 code snippet library
 代码片段库
 
+header view
+表头视图
+UITableView中的概念
 
+footer view
+表尾视图
+UITableView中的概念
+
+navigation bar
+导航条
+UINavigationBar实例
 
 
 
