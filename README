@@ -272,6 +272,7 @@ receiver
 
 selector
 选择器
+Objective-C的概念，@selector()
 
 log navigator
 日志导航面板
@@ -670,6 +671,12 @@ color picker
 color wheel 
 色盘
 
+root view controller
+根视图控制对象
+UINavigationController中的概念
+
+assistant editor
+辅助编辑区域
 
 
 
