@@ -662,8 +662,13 @@ UITableView中的概念
 navigation bar
 导航条
 UINavigationBar实例
+可译为导航栏。这里和status bar的“状态条”统一，译为导航条
 
+color picker
+颜色选择控件
 
+color wheel 
+色盘
 
 
 
