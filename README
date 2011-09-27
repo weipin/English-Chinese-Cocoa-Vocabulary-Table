@@ -678,6 +678,46 @@ UINavigationController中的概念
 assistant editor
 辅助编辑区域
 
+Camera
+相机
+
+toolbar
+工具条
+见navigation bar
+
+Use Photo
+选取
+iOS内置UIImagePickerController界面的标准翻译
+
+modal / modally
+模态 / 模态地
+显示视图的一种模式，例如：通过presentModalViewController:animated:方法
+显示的视图
+
+dictionary
+字典/字典对象
+NSDictionary对象或NSDictionary子类对象（例如NSMutableDictionary）。一般情况下
+可以翻译为“NSDictionary对象”，但不够简练。如果array可以翻译为“数组”，那么dictionary
+应该可以翻译为“字典”。除非有更好的译文。
+首次出现“字典”是的翻译如下：
+“字典对象”（dictionary，即NSDictionary对象或NSDictionary子类对象）
+
+toll-free bridging
+toll-free bridging
+不译。首次出现时写出直译。
+“toll-free bridging”（直译为：无损桥接）
+
+dismiss
+关闭/隐藏
+视上下文，翻译为“关闭”或“隐藏”。
+关闭UIImagePickerController视图
+隐藏键盘
+
+saved photos album
+存储的相片
+iOS内置的界面标准翻译
+
+
 
 
 
