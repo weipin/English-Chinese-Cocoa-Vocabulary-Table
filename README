@@ -717,7 +717,23 @@ saved photos album
 存储的相片
 iOS内置的界面标准翻译
 
+clause
+子句
 
+form sheet
+表单样式
+模式视图控制对象的显示模式之一
+
+page sheet
+页单样式
+模式视图控制对象的显示模式之一
+
+relationship
+关系
+relationship会用在多处，包括：
+- 普通概念：relationships between objects
+- Core Data中的概念：Entity Relationship
+这里都翻译为“关系”，注意和connection“关联”区分
 
 
 
