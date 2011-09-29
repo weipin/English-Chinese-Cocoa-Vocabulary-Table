@@ -735,6 +735,36 @@ relationship会用在多处，包括：
 - Core Data中的概念：Entity Relationship
 这里都翻译为“关系”，注意和connection“关联”区分
 
+application sandbox
+应用沙盒
+
+domain mask
+域掩码
+NSSearchPathForDirectoriesInDomains中的概念
+
+keyed archiving
+keyed archiving
+不翻译，注释的直译是“通过键固化”
+
+not running
+未运行状态
+
+active state
+激活状态
+
+inactive state
+未激活状态
+
+background state
+后台运行状态
+
+suspended state
+暂停状态
+
+Show Package Contents
+显示包内容
+Mac OS X简体中文界面
+
 
 
 
