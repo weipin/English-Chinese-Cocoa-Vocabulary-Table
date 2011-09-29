@@ -528,7 +528,7 @@ superview
 父视图
 
 graphics context
-绘图上下文
+绘图上下文对象
 
 forward declaration
 前置声明
@@ -765,9 +765,14 @@ Show Package Contents
 显示包内容
 Mac OS X简体中文界面
 
+reordering control
+换位控件
+UITableView编辑模式下的控件之一
 
+offscreen context
+屏外上下文对象
 
-
-
+offscreen image context
+屏外图片上下文对象
 
 
