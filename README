@@ -775,4 +775,72 @@ offscreen context
 offscreen image context
 屏外图片上下文
 
+undo
+撤销
+
+redo
+重做
+
+Object-Relational Mapping
+对象关系映射
+Core Data中提到
+
+entity
+实体
+Core Data概念
+
+attribute
+实体属性
+此处是Core Data概念，指的是entity的attribute。如果直接翻译成“属性”，
+会和class的property冲突（也译为“属性”）。“实体属性”也比较清楚。
+
+model file
+模型文件
+Core Data概念
+
+to-many
+一对多
+Core Data概念。虽然不是“one-to-many”，但应该是一个的意思。
+“一对多”比“对多”更常见，更容易读懂。
+苹果官方文档的解释如下（注意最后一句）：
+You can specify a relationship as being to-one or to-many. 
+To-one relationships are represented by a reference to the destination object. 
+To-many relationships are represented by mutable sets (although fetched properties are 
+represented by arrays). Implicitly, “to-one” and “to-many” typically refer to “one-to-one” 
+and “one-to-many” relationships respectively. 
+
+to-one
+一对一
+同to-many
+
+transient
+transient
+Core Data中的概念。出现次数不多。不译。
+短期
+
+sort descriptor
+排序描述对象
+
+faults
+触发对象
+Core Data中概念。没有现成翻译。出现次数较多，故翻译。
+
+set fault
+一对多触发对象
+
+primary key
+主键
+数据库概念
+
+fetched property
+伪属性
+Core Data中概念。fetched property是“计算”得到的。不是真正的“实体属性”。
+暂译为“伪属性”
+
+key-value coding
+键-值存取机制
+只出现过一次，暂译
+
+
+
 
