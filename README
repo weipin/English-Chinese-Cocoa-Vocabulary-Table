@@ -841,6 +841,35 @@ key-value coding
 键-值存取机制
 只出现过一次，暂译
 
+internationalization
+国际化
+
+localization
+本地化
+
+General
+通用
+iOS“设置”程序中的标准翻译
+
+International
+多语言环境
+iOS“设置”程序中的标准翻译
+
+strings table
+字符串对照表
+localization的概念
+
+Applications/Utilities
+应用程序/工具
+Finder中显示的目录名。Mac OS X标准中文界面
+
+Terminal.app
+终端.app
+Finder中显示的标准中文名
+
+macro
+宏
+C语言概念
 
 
 
