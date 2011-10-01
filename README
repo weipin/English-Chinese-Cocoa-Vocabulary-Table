@@ -871,5 +871,20 @@ macro
 宏
 C语言概念
 
+preferences
+偏好设置
+
+registration domain
+注册域
+NSUserDefaults中的概念
+
+application domain
+应用域
+NSUserDefaults中的概念
+
+preference specifier
+偏好设置说明符
+NSUserDefaults中的概念
+
 
 
