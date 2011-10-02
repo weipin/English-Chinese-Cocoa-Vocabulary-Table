@@ -886,5 +886,14 @@ preference specifier
 偏好设置说明符
 NSUserDefaults中的概念
 
+touch event
+触碰事件
+
+multi-touch event
+多点触碰事件
+
+responder chain
+响应对象链
+
 
 
