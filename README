@@ -895,5 +895,26 @@ multi-touch event
 responder chain
 响应对象链
 
+scope
+作用域
 
+The Static Analyzer
+静态分析器
+
+profiling
+性能分析
+
+Instruments
+Instruments
+不翻译，原因同Xcode
+
+instrument
+插件
+Instruments有很多“instrument”，即插件。原书会有这样的词：
+“Allocations instrument”，“Time Profiler instrument”
+统一翻译为：“Allocations插件”，“Time Profiler插件”
+
+Schemes
+方案
+Xcode的重要概念
 
