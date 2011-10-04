@@ -918,3 +918,32 @@ Schemes
 方案
 Xcode的重要概念
 
+Core Animation Layer
+Core Animation Layer
+不翻译。但是layer单独出现时，翻译为“层”或“层对象”
+
+layer
+层/层对象
+视上下文，翻译为“层”或“层对象”
+
+opacity
+不透明属性
+
+composite
+图像合成
+layer中的概念
+
+implicit layer
+隐含层
+
+explicit layer
+自建层
+
+origin
+起始点
+CGRect
+
+animation transaction
+动画事务
+
+
