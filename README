@@ -47,8 +47,11 @@ screen
 label
 标签
 苹果iPhone/iPad使用手册
-另一个意思是selector中的“标签”
+tab也会翻译为标签。必要时注明
 
+tab
+标签
+见label
 
 view
 视图/UIView实例
@@ -430,7 +433,7 @@ stack frame
 栈帧
 
 explicitly
-显示地
+明确地/显示地/自建地
 
 implicitly
 隐含地
@@ -609,8 +612,9 @@ observer
 notification机制中的概念
 
 rotate
-转动
-指转动设备
+“转动”或“旋转”
+这里要注意，rotate device中，统一译为“转动”，其他情况可以翻译为“旋转”，
+例如，“旋转”矩阵
 
 portrait / portrait mode
 竖排/竖排模式
@@ -945,5 +949,49 @@ CGRect
 
 animation transaction
 动画事务
+
+timing
+速度控制
+CAAnimation中的概念
+
+Apple
+苹果公司
+
+concrete subclass
+具体子类
+和“抽象类”对应。“具体”对应“抽象”
+
+key path
+键路径
+CAAnimation中的概念
+
+keyframe
+关键帧
+CAAnimation中的概念
+
+fading
+渐隐渐现/淡入淡出
+CAAnimation中的概念
+
+sliding
+滑入滑出
+CAAnimation中的概念
+
+transformation matrix
+变形矩阵
+
+identity matrix
+单位矩阵
+好像是线性代数的标准翻译，出处待考
+
+the model layer
+模型层
+CAAnimation中的概念
+
+the presentation layer
+外观层
+CAAnimation中的概念
+
+
 
 
