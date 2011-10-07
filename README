@@ -992,6 +992,33 @@ the presentation layer
 外观层
 CAAnimation中的概念
 
+Blocks
+Block对象
+此处翻译源自Apple官方文档对相关名词的解释。如下：
+Block Objects
+Block objects (informally, “blocks”) are an extension to C, as well as Objective-C and C++, that 
+make it easy for programmers to define self-contained units of work. Blocks are similar to — but 
+far more powerful than — traditional function pointers.
+翻译为“Block对象”，而不是“Blocks”，可解决大小写和单复数的问题。
 
+Category
+范畴类
+http://www.apple.com.cn/developer/iphone/library/documentation/General/Conceptual/DevPedia-CocoaCore/Category.html
+应该翻译的概念。
 
+capture
+捕获
+Blocks中的概念
 
+runtime
+运行时环境
+
+class extension
+类扩展
+
+local variable
+局部变量
+
+modifier
+修饰符
+这里指ObjC语法中的modifier，例如__block。不是键盘的modifier。
