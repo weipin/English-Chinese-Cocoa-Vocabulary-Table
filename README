@@ -290,10 +290,10 @@ framework
 框架
 
 immutable
-不可变的
+不可修改的
 
 mutable
-可变的
+可修改的
 
 primitives
 基本类型
@@ -418,10 +418,6 @@ synthesize
 合成
 重要的专业词汇，未找到现有的翻译。暂用“合成”
 
-attribute
-特性
-类的属性（即，@property）的attribute。如readwrite, retain等
-
 copy
 拷贝
 拷贝或复制。关系不大，这里统一用拷贝
@@ -473,6 +469,8 @@ target-action pairs
 
 protocol
 原型
+Objective-C中的概念。其他用处的翻译可能不同，比如“HTTP protocol”翻译为“HTTP协议”
+
 
 conform to
 遵守
@@ -794,7 +792,9 @@ entity
 Core Data概念
 
 attribute
-实体属性
+一、特性（Class的属性概念）。
+类的属性（即，@property）的attribute。如readwrite, retain等
+二、实体属性（Core Data概念）
 此处是Core Data概念，指的是entity的attribute。如果直接翻译成“属性”，
 会和class的property冲突（也译为“属性”）。“实体属性”也比较清楚。
 
@@ -1022,3 +1022,17 @@ local variable
 modifier
 修饰符
 这里指ObjC语法中的modifier，例如__block。不是键盘的modifier。
+
+web service
+Web服务
+
+Airplane Mode
+飞行模式
+
+concatenate
+追加
+字符串操作
+
+
+
+
