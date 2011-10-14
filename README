@@ -164,6 +164,7 @@ Model-View-Controller
 
 collection class
 集合类
+Neo: Collection 可以考虑不翻译（collection 类别），因为这个词儿很难翻译，翻译为集合的问题时，集合其实只是指 Set，而其他几种常见 collection 类（Array、Map、List等）都不是集合。
 
 object diagram
 对象图
@@ -282,6 +283,7 @@ log navigator
 
 collection object
 集合对象
+Neo: Collection 可以考虑不翻译（collection 对象），因为这个词儿很难翻译，翻译为集合的问题时，集合其实只是指 Set，而其他几种常见 collection 类（Array、Map、List等）都不是集合。
 
 container
 容器
@@ -306,12 +308,13 @@ superclass
 父类
 
 subclass
-子类化
+子类/子类化
 
 override
 覆写
 一般译为重载和覆写，目前似乎会将overload翻译为重载的比较多：函数重载，操作符重载。
 这里就先将override译为覆写。
+Neo: override 以前我翻为“覆盖”较多；overload 译为“重载”无问题。
 
 header file
 头文件
@@ -354,7 +357,7 @@ run-time error
 运行时错误
 
 respond
-应答
+应答/响应
 
 debugger
 调试器
@@ -383,6 +386,7 @@ release
 “释放”。
 鉴于此，又因为release在代码中即“发送release消息”，所以既然代码就是release，没有必要强行翻译。
 视情况，可以直接将release用作动词，或用以下句式翻译：收到release消息；向对象发送release消息；
+Neo: 我见过把 deallocate 译为“解除分配”，release/retian 译为“获取引用/释放引用”的，相应的 retain count 译为“引用计数”，也是一法；release 和 retain 是一对操作，保持对称处理即可，都不翻也可。
 
 retain
 retain
@@ -398,7 +402,7 @@ owner
 
 file's owner
 文件拥有对象
-
+Neo: Owner 如在 File's Owner 这个上下文中，建议还是译为“所有者”为好；Ownership 可以译为“所有权”。 
 
 ownership
 拥有权
@@ -433,15 +437,18 @@ explicitly
 
 implicitly
 隐含地
+Neo: 一般这两个词汇译为“显式地”、“隐式地”。
 
 gutter
 编辑区域左侧的淡灰色长条
+Neo: 原意是“装订线（区）”，可以考虑译为“代码标志栏”之类。
 
 delegation
 委托机制
 
 delegate
 委托对象
+Neo: 此二词根据上下文，都可以译为“委托”。
 
 project
 项目
@@ -470,7 +477,7 @@ target-action pairs
 protocol
 原型
 Objective-C中的概念。其他用处的翻译可能不同，比如“HTTP protocol”翻译为“HTTP协议”
-
+Neo: 我觉得还是译为“协议”或者根据上下文不译，这个词和“原型”的关系不大。
 
 conform to
 遵守
@@ -501,6 +508,7 @@ object file
 
 annotation
 位置标识
+Neo: 根据上下文可为“标注”。
 
 Done
 完成
@@ -534,6 +542,7 @@ graphics context
 forward declaration
 前置声明
 指类的前置声明
+Neo: “提前声明”较准确。
 
 blur radius
 模糊半径
@@ -549,12 +558,14 @@ field
 
 view controller
 视图控制对象
+Neo: 习惯上较多译为“视图控制器”。
 
 tab bar
 标签条
 
 File's Owner
 文件拥有对象
+Neo: “文件所有者”
 
 placeholder object
 占位对象
@@ -577,6 +588,7 @@ er,or等英文名词后缀，现常见的译文是“器”。这里尝试做一
 骂胡乱翻译的险，具体化对“器”的翻译。例如：
 controller：控制器 => 控制对象
 navigator:导航器 => 导航面板
+Neo: 关于“-er”的问题，个人认为“面板”的说法无问题，“控制器”称为“控制对象”则未必好，因为控制器是个概念，这个概念会有对应的类（class）和对象（object），在面向对象方法体系中大量使用现实世界隐喻，其实没有太大问题。
 
 point
 点
@@ -597,10 +609,12 @@ notification center
 autorotation
 转动自适应
 大量出现的单词，应翻译。但又没有现成可用的参考，暂译。
+Neo: “自动转屏”？
 
 autoresize
 大小自适应
 同autorotation
+Neo: “自动缩放”？（下同）
 
 autoresize mask
 大小自适应掩码
@@ -608,6 +622,7 @@ autoresize mask
 observer
 观察对象
 notification机制中的概念
+Neo: 参见前面对“-er”的说明。
 
 rotate
 “转动”或“旋转”
@@ -630,6 +645,7 @@ margin
 
 universal application
 通用应用
+Neo: 本质上是一种可执行程序的打包格式，建议增加译者注。
 
 bitwise operation
 按位运算符
@@ -762,6 +778,7 @@ background state
 
 suspended state
 暂停状态
+Neo: “挂起状态”？
 
 Show Package Contents
 显示包内容
@@ -784,7 +801,7 @@ redo
 重做
 
 Object-Relational Mapping
-对象关系映射
+对象-关系映射
 Core Data中提到
 
 entity
@@ -828,6 +845,7 @@ sort descriptor
 faults
 触发对象
 Core Data中概念。没有现成翻译。出现次数较多，故翻译。
+Neo: 这个词用法非常特别，所以建议不译，否则很容易误解。
 
 set fault
 一对多触发对象
@@ -840,6 +858,7 @@ fetched property
 伪属性
 Core Data中概念。fetched property是“计算”得到的。不是真正的“实体属性”。
 暂译为“伪属性”
+Neo: "生成属性"？
 
 key-value coding
 键-值存取机制
@@ -917,6 +936,7 @@ instrument
 Instruments有很多“instrument”，即插件。原书会有这样的词：
 “Allocations instrument”，“Time Profiler instrument”
 统一翻译为：“Allocations插件”，“Time Profiler插件”
+Neo: 本意是工具、仪表，建议不译。
 
 Schemes
 方案
@@ -932,6 +952,7 @@ layer
 
 opacity
 不透明属性
+Neo: “不透明度”？
 
 composite
 图像合成
@@ -1005,6 +1026,7 @@ Category
 范畴类
 http://www.apple.com.cn/developer/iphone/library/documentation/General/Conceptual/DevPedia-CocoaCore/Category.html
 应该翻译的概念。
+Neo: 含义特殊，建议不译。
 
 capture
 捕获
@@ -1032,6 +1054,7 @@ Airplane Mode
 concatenate
 追加
 字符串操作
+Neo: 一般译为“连结”。
 
 master-detail
 主从
@@ -1049,6 +1072,7 @@ Info property list
 audio session category
 audio session category
 不译，注释：音频有效期分类
+Neo: Audio Session 是 iOS 术语，考虑译为“音频会话”？
 
 address book
 通讯录
@@ -1058,11 +1082,3 @@ address book
 
 
 “”（音频有效期分类）
-
-
-
-
-
-
-
-
