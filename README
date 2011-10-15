@@ -164,7 +164,8 @@ Model-View-Controller
 
 collection class
 集合类
-Neo: Collection 可以考虑不翻译（collection 类别），因为这个词儿很难翻译，翻译为集合的问题时，集合其实只是指 Set，而其他几种常见 collection 类（Array、Map、List等）都不是集合。
+Neo: Collection 可以考虑不翻译（collection 类别），因为这个词儿很难翻译，翻译为集合的问题时，集合其实只是指 Set，
+而其他几种常见 collection 类（Array、Map、List等）都不是集合。
 
 object diagram
 对象图
@@ -283,7 +284,8 @@ log navigator
 
 collection object
 集合对象
-Neo: Collection 可以考虑不翻译（collection 对象），因为这个词儿很难翻译，翻译为集合的问题时，集合其实只是指 Set，而其他几种常见 collection 类（Array、Map、List等）都不是集合。
+Neo: Collection 可以考虑不翻译（collection 对象），因为这个词儿很难翻译，翻译为集合的问题时，集合其实只是指 Set，
+而其他几种常见 collection 类（Array、Map、List等）都不是集合。
 
 container
 容器
@@ -386,7 +388,8 @@ release
 “释放”。
 鉴于此，又因为release在代码中即“发送release消息”，所以既然代码就是release，没有必要强行翻译。
 视情况，可以直接将release用作动词，或用以下句式翻译：收到release消息；向对象发送release消息；
-Neo: 我见过把 deallocate 译为“解除分配”，release/retian 译为“获取引用/释放引用”的，相应的 retain count 译为“引用计数”，也是一法；release 和 retain 是一对操作，保持对称处理即可，都不翻也可。
+Neo: 我见过把 deallocate 译为“解除分配”，release/retian 译为“获取引用/释放引用”的，相应的 retain count 译为
+“引用计数”，也是一法；release 和 retain 是一对操作，保持对称处理即可，都不翻也可。
 
 retain
 retain
@@ -588,7 +591,8 @@ er,or等英文名词后缀，现常见的译文是“器”。这里尝试做一
 骂胡乱翻译的险，具体化对“器”的翻译。例如：
 controller：控制器 => 控制对象
 navigator:导航器 => 导航面板
-Neo: 关于“-er”的问题，个人认为“面板”的说法无问题，“控制器”称为“控制对象”则未必好，因为控制器是个概念，这个概念会有对应的类（class）和对象（object），在面向对象方法体系中大量使用现实世界隐喻，其实没有太大问题。
+Neo: 关于“-er”的问题，个人认为“面板”的说法无问题，“控制器”称为“控制对象”则未必好，因为控制器是个概念，
+这个概念会有对应的类（class）和对象（object），在面向对象方法体系中大量使用现实世界隐喻，其实没有太大问题。
 
 point
 点
