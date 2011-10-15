@@ -163,7 +163,7 @@ Model-View-Controller
 “UIViewController对象”等。所以统一译为“控制对象”。
 
 collection class
-集合类
+collection类
 Neo: Collection 可以考虑不翻译（collection 类别），因为这个词儿很难翻译，翻译为集合的问题时，集合其实只是指 Set，
 而其他几种常见 collection 类（Array、Map、List等）都不是集合。
 
@@ -283,7 +283,7 @@ log navigator
 日志导航面板
 
 collection object
-集合对象
+collection对象
 Neo: Collection 可以考虑不翻译（collection 对象），因为这个词儿很难翻译，翻译为集合的问题时，集合其实只是指 Set，
 而其他几种常见 collection 类（Array、Map、List等）都不是集合。
 
@@ -374,7 +374,9 @@ allocate
 分配
 
 deallocate
-释放
+解除分配
+Neo: 我见过把 deallocate 译为“解除分配”
+xia: “解除分配”比“释放”更佳（脏衬衫里挑拣干净的来穿）。应该会用“解除xxx的分配”这种句式。第一次使用应该要注明。
 
 heap
 堆
@@ -404,11 +406,11 @@ owner
 相较于“拥有者”和“拥有对象”，“拥有方”更中性和准确。“拥有者”过于拟人化，owner也不一定是对象。
 
 file's owner
-文件拥有对象
+文件拥所有者
 Neo: Owner 如在 File's Owner 这个上下文中，建议还是译为“所有者”为好；Ownership 可以译为“所有权”。 
 
 ownership
-拥有权
+所有权
 
 run loop
 运行循环
@@ -436,21 +438,23 @@ stack frame
 栈帧
 
 explicitly
-明确地/显示地/自建地
+显式地
+Xia: 原“明确地/显示地/自建地”
 
 implicitly
-隐含地
+隐式地
 Neo: 一般这两个词汇译为“显式地”、“隐式地”。
+Xia: 原“隐含地”
 
 gutter
 编辑区域左侧的淡灰色长条
 Neo: 原意是“装订线（区）”，可以考虑译为“代码标志栏”之类。
 
 delegation
-委托机制
+委托/委托机制
 
 delegate
-委托对象
+委托/委托对象
 Neo: 此二词根据上下文，都可以译为“委托”。
 
 project
@@ -478,9 +482,10 @@ target-action pairs
 目标-动作对
 
 protocol
-原型
+协议
 Objective-C中的概念。其他用处的翻译可能不同，比如“HTTP protocol”翻译为“HTTP协议”
 Neo: 我觉得还是译为“协议”或者根据上下文不译，这个词和“原型”的关系不大。
+Xia: 原“原型”
 
 conform to
 遵守
@@ -510,8 +515,9 @@ object file
 目标文件
 
 annotation
-位置标识
+标注
 Neo: 根据上下文可为“标注”。
+Xia: 原“位置标识”
 
 Done
 完成
@@ -560,15 +566,17 @@ field
 输入框
 
 view controller
-视图控制对象
+视图控制器
 Neo: 习惯上较多译为“视图控制器”。
+Xia：原“视图控制对象”
 
 tab bar
 标签条
 
 File's Owner
-文件拥有对象
+文件所有者
 Neo: “文件所有者”
+Xia：原“文件拥有对象”
 
 placeholder object
 占位对象
@@ -611,22 +619,26 @@ notification center
 通告中心
 
 autorotation
-转动自适应
+自动转屏
 大量出现的单词，应翻译。但又没有现成可用的参考，暂译。
 Neo: “自动转屏”？
+Xia: 原“转动自适应”
 
 autoresize
-大小自适应
+自动缩放
 同autorotation
-Neo: “自动缩放”？（下同）
+Neo: “自动缩放”？（同autoresize mask）
+Xia: 原“大小自适应”
 
 autoresize mask
-大小自适应掩码
+自动缩放掩码
+Xia: 原“大小自适应掩码”
 
 observer
-观察对象
+观察器
 notification机制中的概念
 Neo: 参见前面对“-er”的说明。
+Xia: 原“观察对象”
 
 rotate
 “转动”或“旋转”
@@ -781,8 +793,9 @@ background state
 后台运行状态
 
 suspended state
-暂停状态
+挂起状态
 Neo: “挂起状态”？
+Xia: 原“暂停状态”
 
 Show Package Contents
 显示包内容
@@ -847,22 +860,25 @@ sort descriptor
 排序描述对象
 
 faults
-触发对象
+faults
 Core Data中概念。没有现成翻译。出现次数较多，故翻译。
 Neo: 这个词用法非常特别，所以建议不译，否则很容易误解。
+Xia: 原“触发对象”
 
 set fault
-一对多触发对象
+set fault
+Xia: 原“一对多触发对象”
 
 primary key
 主键
 数据库概念
 
 fetched property
-伪属性
+生成属性
 Core Data中概念。fetched property是“计算”得到的。不是真正的“实体属性”。
 暂译为“伪属性”
 Neo: "生成属性"？
+Xia: 原“伪属性”
 
 key-value coding
 键-值存取机制
@@ -936,11 +952,12 @@ Instruments
 不翻译，原因同Xcode
 
 instrument
-插件
+instrument
 Instruments有很多“instrument”，即插件。原书会有这样的词：
 “Allocations instrument”，“Time Profiler instrument”
 统一翻译为：“Allocations插件”，“Time Profiler插件”
 Neo: 本意是工具、仪表，建议不译。
+Xia: 原“插件”
 
 Schemes
 方案
@@ -955,8 +972,9 @@ layer
 视上下文，翻译为“层”或“层对象”
 
 opacity
-不透明属性
+不透明度
 Neo: “不透明度”？
+Xia: 原“不透明属性”
 
 composite
 图像合成
@@ -1062,9 +1080,10 @@ Airplane Mode
 飞行模式
 
 concatenate
-追加
+连结
 字符串操作
 Neo: 一般译为“连结”。
+Xia: 原“追加”
 
 master-detail
 主从
@@ -1081,7 +1100,7 @@ Info property list
 
 audio session category
 audio session category
-不译，注释：音频有效期分类
+音频会话分类
 Neo: Audio Session 是 iOS 术语，考虑译为“音频会话”？
 
 address book
