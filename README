@@ -1001,6 +1001,12 @@ CAAnimation中的概念
 transformation matrix
 变形矩阵
 
+object library
+对象库面板
+
+identity inspector
+标识检视面板
+
 identity matrix
 单位矩阵
 好像是线性代数的标准翻译，出处待考
@@ -1078,7 +1084,25 @@ address book
 通讯录
 官方标准翻译
 
+property list serializable
+可序列化
 
+disclosure button
+三角展开按钮
 
+push notification
+推送通知
 
-“”（音频有效期分类）
+resolve
+解析
+Bonjour中的概念
+
+network byte order
+网络字节序
+
+host byte order
+主机字节序
+
+XML-serialized
+以XML格式序列化的
+
