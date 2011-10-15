@@ -1051,10 +1051,11 @@ far more powerful than — traditional function pointers.
 翻译为“Block对象”，而不是“Blocks”，可解决大小写和单复数的问题。
 
 Category
-范畴类
+范畴
 http://www.apple.com.cn/developer/iphone/library/documentation/General/Conceptual/DevPedia-CocoaCore/Category.html
 应该翻译的概念。
 Neo: 含义特殊，建议不译。
+
 
 capture
 捕获
