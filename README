@@ -313,10 +313,11 @@ subclass
 子类/子类化
 
 override
-覆写
+覆盖
 一般译为重载和覆写，目前似乎会将overload翻译为重载的比较多：函数重载，操作符重载。
 这里就先将override译为覆写。
 Neo: override 以前我翻为“覆盖”较多；overload 译为“重载”无问题。
+Xia: 原“覆写”
 
 header file
 头文件
@@ -447,8 +448,9 @@ Neo: 一般这两个词汇译为“显式地”、“隐式地”。
 Xia: 原“隐含地”
 
 gutter
-编辑区域左侧的淡灰色长条
+代码标志区
 Neo: 原意是“装订线（区）”，可以考虑译为“代码标志栏”之类。
+Xia: 原“编辑区域左侧的淡灰色长条”
 
 delegation
 委托/委托机制
@@ -566,9 +568,9 @@ field
 输入框
 
 view controller
-视图控制器
+视图控制对象
 Neo: 习惯上较多译为“视图控制器”。
-Xia：原“视图控制对象”
+Xia：视图控制器对象，简称视图控制对象（第一次出现时说明）。即，UIViewController（或UIViewController子类）实例
 
 tab bar
 标签条
