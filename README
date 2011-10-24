@@ -1132,3 +1132,56 @@ host byte order
 XML-serialized
 以XML格式序列化的
 
+alert sound
+提醒音
+苹果iPhone/iPad使用手册
+Tap the alert sound you want, or None if you don’t want an audible alert.
+轻按所需提醒音,或者如果您不想听到提醒音,请选取“无”。
+
+badge
+标记
+苹果iPhone/iPad使用手册
+A badge on the app icon shows how many documents are queued for printing.
+应用程序图标上的标记会显示排队等待打印的文稿数。
+
+deliver
+投递
+该动词翻译用在推送通知中
+deliver a notification
+
+device token
+设备符
+推送通知中的概念
+
+push notification
+推送通知
+
+notification package
+通知包
+推送通知概念
+
+provider
+提供方
+推送通知概念
+
+streaming connection
+流连接
+
+file descriptors
+文件描述符
+
+internet socket
+互联网套接字
+
+simple format
+简单格式
+推送通知概念
+
+enhanced format
+加强格式
+推送通知概念
+
+feedback service
+反馈服务
+推送通知概念
+
