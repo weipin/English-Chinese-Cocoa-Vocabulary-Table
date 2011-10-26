@@ -17,6 +17,8 @@ http://www.apple.com.cn/developer/iphone/library/documentation/General/Conceptua
 tap
 轻按/按下
 苹果iPhone/iPad使用手册。视上下文，使用“轻按”或“按下”
+# 官方使用手册
+*
 
 double-tap
 连按
@@ -29,6 +31,8 @@ Home button
 
 对照表
 -----------
+
+### START ###
 
 Application/App
 应用
@@ -1185,3 +1189,5 @@ feedback service
 反馈服务
 推送通知概念
 
+
+### END ###
