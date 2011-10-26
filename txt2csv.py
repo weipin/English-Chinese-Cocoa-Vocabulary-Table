@@ -31,7 +31,7 @@ def processTableFile(f):
         isBlank = BlankLinePattern.search(line)
         if isBlank:
             if inSection:
-                sectionType = section.get('Type', '~')              
+                sectionType = section.get('Type', '+')              
                 sectionGroup = sectionGroups[sectionType]
                 sectionGroup.append(section)                
                 
@@ -58,8 +58,14 @@ def processTableFile(f):
                 section['Chinese'] = line.strip()
             else:
                 pass    
+    
+    # sort items in each group
+    for i in sectionGroups.itervalues():
+        i.sort(cmp=lambda x,y: cmp(x.lower(), y.lower()), 
+               key=lambda section: section['English'])
+    
             
-    return sectionGroups    
+    return sectionGroups
 
 class Usage(Exception):
     def __init__(self, msg):
@@ -99,6 +105,7 @@ def main(argv=None):
     
     OrderedTypes = tuple("~!@#$%^&*()_+")
     content = ""
+    items = set()
     
     for i in OrderedTypes:
         group = sectionGroups.get(i, None)
@@ -106,6 +113,12 @@ def main(argv=None):
             continue
         
         for j in group:
+            engstr = j.get("English", '').lower()
+            if engstr in items:
+                print "DUPLICATED! %s" % engstr
+            else:
+                items.add(engstr)
+                
             content += "%s, %s, %s\r\n" % (j.get("English", ""), j.get("Chinese", ""), j.get("Comment", ""))
             
         content += " ,  ,  \r\n\r\n\r\n"
