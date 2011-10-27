@@ -690,6 +690,9 @@ Gyro + 方向感应器，动作更流畅。iPod touch 做了新的改进。现�
 当与方向感应器搭配使用时，陀螺仪让 iPod touch 支持更高级别的动作感应
 %
 
+motion event
+运动事件
+原：动作事件
 
 low-pass filter/high-pass filter
 低通滤波/高通滤波（或，低通滤波算法/高通滤波算法）
@@ -1067,10 +1070,13 @@ preference specifier
 NSUserDefaults中的概念
 
 touch event
-触碰事件
+触摸事件
+http://www.apple.com.cn/developer/iphone/library/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/EventHandling/EventHandling.html
+原：触碰事件
 
 multi-touch event
-多点触碰事件
+多点触摸事件
+原：多点触碰事件
 
 responder chain
 响应对象链
