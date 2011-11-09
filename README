@@ -10,8 +10,8 @@
   #. 分类字符独立写在一行中，必须是第一个字符，且后面没有其他字符（包括空格）
   #. 分类有排序，次序即前述列表的顺序
   #. 目前有特定含义的分类如下：
-     $: Cocoa特有的词汇
-     %: 界面相关
+     $: Apple产品/Cocoa特有的词汇
+     %: 开发界面相关
      ^: 其他常用词汇
      +: 默认类型，即没有指定类型
 - 输出注释。和之前的注释不同，输出注释更正式，格式如下：
@@ -37,22 +37,23 @@ notification
 常见词汇，翻译出来比较好。苹果中文开发文档使用了“通告”，见:
 http://www.apple.com.cn/developer/iphone/library/documentation/General/Conceptual/DevPedia-CocoaCore/Notification.html
 $
+# 官
 
 tap
 轻按/按下
 苹果iPhone/iPad使用手册。视上下文，使用“轻按”或“按下”
-$
-# 见官方使用手册
+%
+# 官
 
 double-tap
 连按
-$
-# 见官方使用手册
+%
+# 官
 
 Home button
 主屏幕按钮
-$
-# 见官方使用手册
+%
+# 官
 
 
 对照表
@@ -88,6 +89,7 @@ view
 视图/UIView实例
 视上下文，译为视图/视图对象/UIView实例。
 $
+# 官
 
 interface builder
 Interface Builder
@@ -105,7 +107,7 @@ sheet
 Apple使用手册，
 The Customize Toolbar sheet appears. / 将出现 “自定工具栏”表单。（Pages09_UserGuide.pdf）
 “表单”和form有歧义，“下拉窗口”的确更佳
-%
+$
 
 checkbox
 选择框
@@ -134,18 +136,20 @@ editor area
 %
 
 archive
-固化/存档文件
+固化
 两种情况：
 第一种是动词，Cocoa框架实现的功能－－翻译为“固化”，与其相对的是unarchive。
 第二种是名词，Xcode的功能－－翻译为“存档文件”
 动词archive没有现成可用的中文翻译，但是需要翻译为中文，整句才通顺。试译为“固化”
 Neo: 此二词汇确实没有公认的翻译，目前的「固话/解固」还不错，另外建议加一个译者注说明。
 $
+# 这里的archive是存取机制概念
 
 unarchive
 解固
 针对动词archive
 $
+# 同archive
 
 build
 构建
@@ -156,7 +160,7 @@ Neo: 建议用「创建」或者「连编」
 Xia: 因为“创建”是常见词，容易和其他使用情况混淆。
      比如“创建新项目”（create a new project），“创建视图实例”（create a view instance）等。
      故暂翻译为“构建”
-$
+%
 
 compile
 编译
@@ -166,6 +170,7 @@ bundle
 中文版iTunesConnect_DeveloperGuide
 Bundle IDs are app-type specific (either iOS or Mac OS X) / 程序包ID是程序类型相关的(要么是iOS,要么是Mac OS X) 
 $
+# 官
 
 outline view
 大纲视图
@@ -201,10 +206,8 @@ http://www.apple.com.cn/developer/mac/library/navigation/ios.html
 Neo: 这类 UI 控件可以考虑不翻译，要翻译可以用此方案
 
 Model-View-Controller
-模型-视图-控制对象
-也有译为“模型-视图-控制器”（译文中说明）。“器”在别处有使用，比如“导航面板选择器”。
-作为设计模式中的概念，“对象”更具体。另一个原因是，单独的controller会译为“控制对象”，或
-“UIViewController对象”等。所以统一译为“控制对象”。
+模型-视图-控制器
+^
 
 collection class
 collection类
@@ -229,12 +232,14 @@ connect
 Apple开发文档
 http://www.apple.com.cn/developer/iphone/library/documentation/iPhone/Conceptual/iPhone101/Articles/05_ConfiguringView.html#/apple_ref/doc/uid/TP40007514-CH7-SW2
 $
+# 官
 	
 outlet
 插座变量
 虽然别扭，考虑后，还是翻译出来比较好
 http://www.apple.com.cn/developer/mac/library/documentation/Cocoa/Conceptual/OOP_ObjC/Articles/chapter_6_section_2.html
 $
+# 官
 
 target
 目标
@@ -254,7 +259,8 @@ developer certificate
 Keychain Access
 钥匙串访问
 Mac OS X中的中文版就是这个
-%
+$
+# 官
 
 application identifier
 应用程序标识
@@ -279,6 +285,7 @@ Home screen
 主屏幕
 苹果iPhone/iPad使用手册
 $
+# 官
 
 Launch Image
 启动图片
@@ -288,11 +295,13 @@ tap
 轻按/按下
 苹果iPhone/iPad使用手册。视上下文，使用“轻按”或“按下”
 $
+# 官
 
 double-tap
 连按
 苹果iPhone/iPad使用手册
 $
+# 官
 
 console
 控制台
@@ -304,10 +313,12 @@ Apple官网未翻译
 Neo: 建议提供译者注，说明 Retina Display 的准确含义
 Xia: Retina显示屏，高分辨率显示屏
 $
+# 官
 
 controller
-控制对象
-$
+控制器
+看情况翻译，如果是UIViewController类的实例，就翻译成控制对象
+
 
 command line tool
 命令行工具
@@ -340,6 +351,7 @@ selector
 选择器
 Objective-C的概念，@selector()
 $
+# 官
 
 log navigator
 日志导航面板
@@ -384,6 +396,8 @@ override
 这里就先将override译为覆写。
 Neo: override 以前我翻为“覆盖”较多；overload 译为“重载”无问题。
 Xia: 原“覆写”
+^
+
 
 header file
 头文件
@@ -409,10 +423,12 @@ $
 initializer
 初始化方法
 $
+# 官
 
 designated initializer
 指定初始化方法
 $
+# 官
 
 implicit
 隐式的
@@ -431,7 +447,7 @@ run-time error
 运行时错误
 
 respond
-应答/响应
+响应
 $
 
 debugger
@@ -450,7 +466,7 @@ allocate
 $
 
 deallocate
-解除分配
+释放/解除分配
 Neo: 我见过把 deallocate 译为“解除分配”
 xia: “解除分配”比“释放”更佳（脏衬衫里挑拣干净的来穿）。应该会用“解除xxx的分配”这种句式。第一次使用应该要注明。
 $
@@ -508,7 +524,7 @@ property
 属性
 property有很多，包括
 - 类的属性（即，@property）
-$
+$ 这里指类的属性（@property）
 
 synthesize
 合成
@@ -543,6 +559,7 @@ Xia: 原“编辑区域左侧的淡灰色长条”
 delegation
 委托/委托机制
 $
+# 官
 
 delegate
 委托/委托对象
@@ -557,7 +574,7 @@ product
 
 Build Phases
 构建阶段
-$
+%
 
 framework
 框架
@@ -568,7 +585,7 @@ namespace
 
 Scheme
 方案
-$
+%
 
 target-action pairs
 目标-动作对
@@ -580,6 +597,7 @@ Objective-C中的概念。其他用处的翻译可能不同，比如“HTTP prot
 Neo: 我觉得还是译为“协议”或者根据上下文不译，这个词和“原型”的关系不大。
 Xia: 原“原型”
 $
+# 官
 
 conform to
 遵守
@@ -611,12 +629,11 @@ annotation
 标注
 Neo: 根据上下文可为“标注”。
 Xia: 原“位置标识”
-%
 
 Done
 完成
 iOS软键盘的Done，取自iOS中文资源
-%
+# 官
 
 code completion
 代码补全
@@ -633,7 +650,7 @@ $
 
 activity indicator
 活动指示器
-%
+
 
 draw/draw view
 绘图/绘制视图
@@ -688,11 +705,13 @@ accelerometer
 官方翻译：http://www.apple.com.cn/ipodtouch/design/
 Gyro + 方向感应器，动作更流畅。iPod touch 做了新的改进。现配备内置三轴陀螺仪。
 当与方向感应器搭配使用时，陀螺仪让 iPod touch 支持更高级别的动作感应
-%
+$
+# 官
 
 motion event
 运动事件
 原：动作事件
+$
 
 low-pass filter/high-pass filter
 低通滤波/高通滤波（或，低通滤波算法/高通滤波算法）
@@ -715,6 +734,7 @@ notification
 通告
 http://www.apple.com.cn/developer/iphone/library/documentation/General/Conceptual/DevPedia-CocoaCore/Notification.html
 $
+# 官
 
 post notification
 发布通告
@@ -758,11 +778,13 @@ portrait / portrait mode
 竖排/竖排模式
 官方使用手册：以竖排或横排模式观看视频。
 $
+# 官
 
 landscape / landscape mode
 横排/横排模式
 同portrait
 $
+# 官
 
 margin
 外间距
@@ -794,7 +816,7 @@ UITableView中的概念
 
 accessory indicator
 辅助指示视图
-%
+
 
 code snippet library
 代码片段库
@@ -812,7 +834,8 @@ navigation bar
 导航条
 UINavigationBar实例
 可译为导航栏。这里和status bar的“状态条”统一，译为导航条
-%
+$
+# 官
 
 color picker
 颜色选择控件
@@ -846,7 +869,7 @@ modal / modally
 显示的视图
 
 dictionary
-字典/字典对象
+字典对象
 NSDictionary对象或NSDictionary子类对象（例如NSMutableDictionary）。一般情况下
 可以翻译为“NSDictionary对象”，但不够简练。如果array可以翻译为“数组”，那么dictionary
 应该可以翻译为“字典”。除非有更好的译文。
@@ -877,12 +900,10 @@ clause
 form sheet
 表单样式
 模式视图控制对象的显示模式之一
-%
 
 page sheet
 页单样式
 模式视图控制对象的显示模式之一
-%
 
 relationship
 关系
@@ -891,10 +912,12 @@ relationship会用在多处，包括：
 - Core Data中的概念：Entity Relationship
 这里都翻译为“关系”，注意和connection“关联”区分
 $
+# Core Data概念，但是其他地方也有使用
+
 
 application sandbox
 应用沙盒
-%
+$
 
 domain mask
 域掩码
@@ -924,7 +947,6 @@ Xia: 原“暂停状态”
 Show Package Contents
 显示包内容
 Mac OS X简体中文界面
-%
 
 reordering control
 换位控件
@@ -938,11 +960,9 @@ offscreen image context
 
 undo
 撤销
-%
 
 redo
 重做
-%
 
 Object-Relational Mapping
 对象-关系映射
@@ -950,10 +970,11 @@ Core Data中提到
 
 entity
 实体
-Core Data概念
 $
+# Core Data概念
 
 attribute
+特性（Class的属性概念）/实体属性（Core Data概念）
 一、特性（Class的属性概念）。
 类的属性（即，@property）的attribute。如readwrite, retain等
 二、实体属性（Core Data概念）
@@ -965,6 +986,7 @@ model file
 模型文件
 Core Data概念
 $
+# Core Data概念
 
 to-many
 一对多
@@ -976,11 +998,11 @@ To-one relationships are represented by a reference to the destination object.
 To-many relationships are represented by mutable sets (although fetched properties are 
 represented by arrays). Implicitly, “to-one” and “to-many” typically refer to “one-to-one” 
 and “one-to-many” relationships respectively. 
-$
+# Core Data概念
 
 to-one
 一对一
-同to-many
+# Core Data概念
 
 transient
 transient
@@ -1028,12 +1050,10 @@ $
 General
 通用
 iOS“设置”程序中的标准翻译
-%
 
 International
 多语言环境
 iOS“设置”程序中的标准翻译
-%
 
 strings table
 字符串对照表
@@ -1043,12 +1063,10 @@ $
 Applications/Utilities
 应用程序/工具
 Finder中显示的目录名。Mac OS X标准中文界面
-%
 
 Terminal.app
 终端.app
 Finder中显示的标准中文名
-%
 
 macro
 宏
@@ -1077,6 +1095,7 @@ http://www.apple.com.cn/developer/iphone/library/documentation/iPhone/Conceptual
 multi-touch event
 多点触摸事件
 原：多点触碰事件
+同touch event
 
 responder chain
 响应对象链
@@ -1098,24 +1117,20 @@ Instruments
 不翻译，原因同Xcode
 
 instrument
-instrument
+组件
 Instruments有很多“instrument”，即插件。原书会有这样的词：
 “Allocations instrument”，“Time Profiler instrument”
 统一翻译为：“Allocations插件”，“Time Profiler插件”
 Neo: 本意是工具、仪表，建议不译。
 Xia: 原“插件”
 
-Schemes
-方案
-Xcode的重要概念
-$
 
 Core Animation Layer
 Core Animation Layer
 不翻译。但是layer单独出现时，翻译为“层”或“层对象”
 
 layer
-层/层对象
+层
 视上下文，翻译为“层”或“层对象”
 $
 
@@ -1131,17 +1146,14 @@ layer中的概念
 $
 
 explicit layer
-自建层
-$
+显式层
 
 origin
 起始点
 CGRect
-$
 
 animation transaction
 动画事务
-$
 
 timing
 速度控制
@@ -1154,17 +1166,14 @@ Apple
 concrete subclass
 具体子类
 和“抽象类”对应。“具体”对应“抽象”
-$
 
 key path
 键路径
 CAAnimation中的概念
-$
 
 keyframe
 关键帧
 CAAnimation中的概念
-$
 
 fading
 渐隐渐现/淡入淡出
@@ -1176,7 +1185,6 @@ CAAnimation中的概念
 
 transformation matrix
 变形矩阵
-$
 
 object library
 对象库面板
@@ -1216,7 +1224,7 @@ http://www.apple.com.cn/developer/iphone/library/documentation/General/Conceptua
 应该翻译的概念。
 Neo: 含义特殊，建议不译。
 $
-
+# 官
 
 capture
 捕获
@@ -1235,6 +1243,7 @@ modifier
 修饰符
 这里指ObjC语法中的modifier，例如__block。不是键盘的modifier。
 $
+# 语言的modifier，例如__block
 
 web service
 Web服务
@@ -1252,29 +1261,26 @@ master-detail
 主从
 UISplitViewController的主要概念
 $
+# UISplitViewController概念
 
 system sound server
 系统声音服务
-%
 
 system sound
 系统声音
-%
 
 Info property list
 应用信息文件
 $
 
 audio session category
-audio session category
 音频会话分类
 Neo: Audio Session 是 iOS 术语，考虑译为“音频会话”？
-$
+
 
 address book
 通讯录
 官方标准翻译
-%
 
 property list serializable
 可序列化
@@ -1306,14 +1312,15 @@ alert sound
 苹果iPhone/iPad使用手册
 Tap the alert sound you want, or None if you don’t want an audible alert.
 轻按所需提醒音,或者如果您不想听到提醒音,请选取“无”。
-%
+# 推送通知概念
 
 badge
 图标标记
 苹果iPhone/iPad使用手册
 A badge on the app icon shows how many documents are queued for printing.
 应用程序图标上的标记会显示排队等待打印的文稿数。
-%
+$
+# 推送通知中的概念
 
 deliver
 投递
@@ -1321,18 +1328,18 @@ deliver
 deliver a notification
 
 device token
-设备符
+设备token
 推送通知中的概念
-$
+原：设备符
 
 notification package
 通知包
 推送通知概念
 
 provider
-提供方
+provider
 推送通知概念
-$
+原：提供方
 
 streaming connection
 流连接
@@ -1346,12 +1353,10 @@ internet socket
 simple format
 简单格式
 推送通知概念
-$
 
 enhanced format
 加强格式
 推送通知概念
-$
 
 feedback service
 反馈服务
