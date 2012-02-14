@@ -491,6 +491,7 @@ retain
 retain
 见release
 $
+# 也会翻译为“保留”
 
 retain count
 retain计数
