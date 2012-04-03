@@ -339,10 +339,10 @@ instance variable
 实例变量
 
 parameter
-参数
+形参
 
 arguments
-参数
+实参
 
 receiver
 接收方
@@ -1364,5 +1364,27 @@ feedback service
 推送通知概念
 $
 
-
 ### END ###
+
+
+daemon
+守护进程
+
+import
+导入
+#import指令，注意区分#include的翻译
+
+include
+包含
+见import
+
+operator
+运算符
+
+parameter
+形参
+
+argument
+实参
+
+
