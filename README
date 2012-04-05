@@ -612,7 +612,8 @@ breakpoint
 断点
 
 stack trace
-堆栈跟踪信息
+栈跟踪信息
+原：堆栈跟踪信息
 
 Preprocessing
 预处理
